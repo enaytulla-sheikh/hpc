@@ -92,9 +92,9 @@ sudo dnf install -y gcc-gfortran gcc-c++ \
 ### 1. Install ZLIB
 ```bash
 cd /shared/WRF/Downloads
-wget http://www.zlib.net/zlib-1.2.13.tar.gz
-tar -xzf zlib-1.2.13.tar.gz
-cd zlib-1.2.13
+wget https://zlib.net/zlib-1.3.1.tar.gz
+tar -xzf zlib-1.3.1.tar.gz
+cd zlib-1.3.1
 
 ./configure --prefix=$ZLIB
 make -j$(nproc)
